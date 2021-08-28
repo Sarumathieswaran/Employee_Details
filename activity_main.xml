@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradientbackgroud">
+
+    <TextView
+        android:layout_width="398dp"
+        android:layout_height="53dp"
+        android:text="EMPLOYEE DETAILS"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#000066"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.500" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginVertical="34dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/edittext"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/tv2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/edittext"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+
+        app:layout_constraintBottom_toTopOf="@+id/tv3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/edittext"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+
+        app:layout_constraintBottom_toTopOf="@+id/tv4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ed4"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/edittext"
+        android:ems="15"
+        android:inputType="date"
+        android:textAlignment="center"
+
+        app:layout_constraintBottom_toTopOf="@+id/bt1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/edittext"
+        android:text="ADD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="1.Name"
+        android:textStyle="bold"
+        android:textAlignment="gravity"
+        android:textColor="#000080"
+        app:layout_constraintBottom_toTopOf="@+id/ed1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.894" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="16dp"
+        android:text="2.Address"
+        android:textStyle="bold"
+        android:textAlignment="gravity"
+        android:textColor="#000080"
+        app:layout_constraintBottom_toTopOf="@+id/ed2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="3.Gender"
+        android:textStyle="bold"
+        android:textAlignment="gravity"
+        android:textColor="#000080"
+        app:layout_constraintBottom_toTopOf="@+id/ed3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:text="4.Join Date"
+        android:textAlignment="gravity"
+        android:textColor="#000080"
+        app:layout_constraintBottom_toTopOf="@+id/ed4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

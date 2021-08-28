@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:text="address"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:text="gender"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/joinDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="joinDate"
+        android:textColor="#000000" />
+</LinearLayout>
+
+
